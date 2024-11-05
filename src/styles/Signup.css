@@ -1,4 +1,4 @@
-.App {
+.SignUp {
     text-align: center;
 }
 
@@ -9,7 +9,7 @@
 }
 
 
-.App-header {
+.Signup-header {
     background-color: #A9CBFF;
     min-height: 100vh;
     display: flex;
@@ -21,11 +21,7 @@
     font-family: Courier New;
 }
 
-.App-link {
-    color: #61dafb;
-}
-
-.loginForm {
+.signUpForm {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,8 +29,8 @@
     border-radius: 10px;
 }
 
-.loginForm input[type="text"],
-.loginForm input[type="password"] {
+.signUpForm input[type="text"],
+.signUpForm input[type="password"] {
     width: 25em;
     height: 1.5em;
     padding: 10px;
@@ -45,7 +41,7 @@
     margin-bottom: 2em;
 }
 
-.loginForm input[type="submit"] {
+.signUpForm input[type="submit"] {
     width: 8em;
     padding: 10px;
     background-color: #1f3d7a;
@@ -56,13 +52,6 @@
     cursor: pointer;
 }
 
-.loginForm input[type="submit"]:hover {
+.signUpForm input[type="submit"]:hover {
     background-color: #3e64a7;
-}
-
-.signup {
-    color: white;
-    font-size: 18px;
-    font-family: Arial;
-    cursor: pointer;
 }
